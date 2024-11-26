@@ -1,0 +1,74 @@
+
+.header{
+    width: auto;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-bottom: 24px; */
+}
+
+.voltar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.voltar img{
+    width: 32px;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    align-items: center;
+}
+
+.cadastrar-imovel{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cadastrar-imovel img{
+    width: 32px;
+}
+
+.cadastrar-imovel h1{
+    font-size: 24px;
+    font-weight: 700;
+    color:#7B2CBF;
+}
+
+.semsublinhado{
+    text-decoration: none;
+}
+
+.titulo h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hidden {
+    visibility: hidden; /* Torna o botão invisível */
+    pointer-events: none; /* Impede interação */
+}
+
+
+@media (max-width: 768px) {
+
+    .cadastrar-imovel h1 {
+        font-size: 16px; 
+    }
+
+    .voltar img, .cadastrar-imovel img{
+        width: 24px;
+    }
+}

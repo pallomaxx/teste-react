@@ -1,0 +1,144 @@
+.titulo h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.inputs{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.input input, select{
+    width: 400px;
+    height: 56px;
+    border: 1px solid #00000029;
+    border-radius: 4px;
+    color: #000000CC;
+    font-family: Jura;
+    padding-left: 12px;
+}
+
+.input h1{
+    font-size: 16px;
+    width: 400px;
+    font-weight: 400;
+    color: #10002B;
+}
+
+.input h2{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000007A;
+    font-family: Lato;
+    display: flex;
+    justify-content: end;
+}
+
+.complemento, .cidade{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.botao-cadastro{
+    width: 400px;
+    height: 48px;
+    background: #7B2CBF;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    padding: 16px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+  
+  .exit-button {
+    background: #7b2cbf;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+  .continue-button {
+    background: #ccc;
+    color: #333;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .titulo h1{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: start;
+    }
+    
+    .inputs{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .input input, select{
+        width: 345px;
+        height: 56px;
+        border: 1px solid #00000029;
+        border-radius: 4px;
+        color: #000000CC;
+        font-family: Jura;
+        padding-left: 12px;
+    }
+
+    .input h1, .input h2{
+        width: 345px;
+    }
+
+    .botao-cadastro{
+        width: 345px;
+    }
+}

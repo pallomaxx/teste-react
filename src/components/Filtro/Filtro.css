@@ -1,0 +1,40 @@
+.filtros{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.primario{
+    width: 120px;
+    height: 24px;
+    background: #7b2cbf;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+.secundario{
+    width: 120px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #00000029;
+    text-align: center;
+    color: #000000CC;
+    ;
+}
+
+@media (max-width: 768px) {
+
+    .filtros{
+        font-size: 12px;
+    }
+
+    .primario, .secundario{
+        width: 104px;
+        height: 24px;
+    }
+}
+
