@@ -1,7 +1,7 @@
 {
   "name": "login-cadastro",
   "version": "0.1.0",
-  "homepage": "https://{pallomaxx}.github.io/{teste-react}",
+  "homepage": "https://pallomaxx.github.io/teste-react",
   "private": true,
   "dependencies": {
     "@react-spring/web": "^9.7.5",
