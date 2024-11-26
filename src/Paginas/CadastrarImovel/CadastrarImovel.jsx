@@ -17,7 +17,7 @@ export const CadastrarImovel = () => {
     <>
         <Cabecalho showButton={false} showTitle={false}/>
 
-        <div className="titulo">
+        <div className="titulo-cadastro">
             <h1>Para começarmos, precisamos de alguns dados</h1>
         </div>
 
